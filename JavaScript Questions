@@ -1,0 +1,427 @@
+
+1)
+<script type="text/javascript">
+x=4+"4";
+document.write(x);
+</script>
+
+What is the Output?
+
+A) 44
+
+2)
+<script type="text/javascript" language="javascript">
+var qpt = "Quality Point Technologies";
+var result = qpt.split(" ");
+document.write(result);
+</script>
+What is the output?
+
+A) Quality,Point,Technologies
+
+3) Is it possible to nest functions in JavaScript?
+A) Yes
+
+4)
+<script>
+document.write(navigator.appCodeName);
+</script>
+
+What does it do?
+
+A) get code name of the browser of a visitor
+
+5) Which of the following is true?
+A) If onKeyDown returns false, the key-press event is cancelled.
+
+6) Scripting language are
+A) High Level Programming language
+
+7) Which best explains getSelection()?
+A) Returns the value of cursor-selected text
+
+8)
+<script language="javascript">
+function x()
+{
+var s= "Good 100%";
+var pattern = /\D/g;
+var output= s.match(pattern);
+document.write(output);
+}
+</script>
+What's the output?
+
+A) G,o,o,d,%
+
+9)
+<script language="javascript">
+var qpt="QUALITY POINT TECHNOLOGIES";
+alert(qpt.charAt(qpt.length-1));
+</script>
+What's the output?
+
+A) S
+
+10) Choose the client-side JavaScript object:
+A) FileUpLoad
+
+11) Are java and javascript the same?
+A) NO
+
+12)
+Syntax for creating a RegExp object:
+(a). var txt=new RegExp(pattern,attributes);
+(b). var txt=/pattern/attributes;
+Which of the above mentioned syntax will correct?
+A) Both (a) and (b)
+
+13)
+<script language="javascript">
+function x(z,t)
+{
+alert(x.length);
+}
+</script>
+output?
+
+A) 2
+
+14) What does it  mean by "this" keyword in javascript?
+A) It refers current object
+
+15) In JavaScript, Window.prompt() method return true or false value ?
+A) False
+
+16) Math.round(-20.51)=?
+A) -21
+
+17)
+<script language="javascript">
+function x()
+{
+var s = "Quality 100%!{[!!";
+var pattern = /\w/g;
+var output = s.match(pattern);
+document.write(output);
+}
+</script>
+What is the output?
+
+A) Q,u,a,l,i,t,y,1,0,0
+
+
+18)
+<script type="text/javascript" language="javascript">
+var qpt= new Array();
+qpt[0] = "WebDevelopment";
+qpt[1]="ApplicationDevelopment"
+qpt[2]="Testing"
+qpt[3] = "QualityPointTechnologies";
+document.write(qpt[0,1,2,3]);
+</script>
+
+A) WebDevelopmnet,ApplicationDevelopment,Testing,QualityPointTechnologies
+
+19) Choose the server-side JavaScript object:
+A) File
+
+20) parseFloat(9+10)=?
+a) 19
+b) 910
+c) None --> Correct Answer.(Parsefloat needs to be in the string otherwise it's undefinded)
+
+21)
+<script language="javascript">
+function x()
+{
+document.write(2+5+"8");
+}
+</script>
+What is the output
+A) 78
+
+22)_________ keyword is used to declare variables in javascript.
+A) Var
+
+23) In Javascript, Which of the following method is used to evaluate the regular expression?
+A) eval(2*(3+5))
+
+24)
+<script language="javascript">
+function x()
+{
+var s= "quality 100%";
+var pattern = /\d/g;
+var output= s.match(pattern);
+document.write(output);
+}
+</script>
+What is the output?
+A) 1,0,0
+
+25)
+<script type="text/javascript" language="javascript">
+
+qpt=((45%2)==0)? "hello" : "bye";
+document.write(qpt);
+
+</script>
+what's the output?
+
+A) bye
+
+26)
+<script language="javascript">
+function x()
+{
+var qpt = "QualityPointTechnologies";
+var pattern = new RegExp("POIiNT","i");
+document.write(qpt.match(pattern));
+}
+</script>
+What's the output?
+A) null
+
+27) How do you create a new object in JavaScript?
+A) var obj = {};
+
+28) In Javascript, What does isNaN function do ?
+A) Return true if the argument is not a number.
+
+
+29) If x=103 & y=9 then x%=y , what is the value of x after executing x%=y?
+A) 4
+
+30) Choose the external object:
+A) Checkbox
+
+31) Choose the four symbol pairs that represent RegExp properties lastMatch, lastParent, leftContext, and rightContext, respectively:
+A) $&, $+, $`, $'
+
+32) Which of the following properties hold the values of the pixels of the length of the width and height of the viewer's screen resolution?
+A) screen.width and screen.height
+
+33) ParseInt(“15”,10)=?
+A) 15
+
+34) Which JavaScript feature uses JAR files?
+A) Object signing
+
+36) In JavaScript, Window.alert() is used to allow user to enter something
+A) False
+
+38) Does Javascript have any date data type?
+A) No
+
+39) Math. round(-20.5)=?
+A) -20
+
+40) ?_name is it valid javascript identifier?
+A) No
+
+41)
+<script language="javascript">
+function x()
+{
+var qpt = "First come, first served";
+var pattern = /first/gi;
+document.write(qpt.match(pattern)[1]);
+}
+</script>
+
+A) first
+
+42) In javascript, Which of the above Comments lines are used ?
+A) / , /** ......./ , /*
+
+43)
+<script language="javascript">
+function x()
+{
+var s = "Give 100%!{[!!";
+var pattern = /\W/g;
+var output = s.match(pattern);
+document.write(output);
+}
+</script>
+Whats the output?
+a) ,%,!,{,[,!,!
+
+44) Which best describes void?
+A) An operator
+
+45)
+<script type="text/javascript" language="javascript">
+var qpt="QualityPointTechnologies";
+var result =qpt.lastIndexOf("l");
+document.write(result);
+</script>
+A) 18
+
+46)
+<script language="javascript">
+function x()
+{
+var qpt = "First come, first served";
+var pattern = /first/g;
+document.write(qpt.match(pattern)[1]);
+}
+</script>
+A) undefined
+
+47)
+<script language="javascript">
+function sum(x)
+{
+function add(y)
+{
+return x+y;
+}
+return add;
+}
+function callme() { result=sum(5)(5); alert(result); }
+</script>
+
+If you call the function callme(), what will happen ?
+A) 10
+
+49)
+<script type="text/javascript">
+document.write("<h1>This is a heading</h1>");
+document.write("<p>This is a paragraph.</p>");
+document.write("<p>This is another paragraph.</p>");
+</script>
+Can you write HTML tag inside the javascript ?
+A) Yes
+
+
+51) How to specify the color of the hypertext links with JavaScript ?
+A) document.linkColor="#00FF00";
+
+52)
+<script language="javascript">
+function x()
+{
+var qpt = "QualityPointTechnologies";
+var pattern = /point/;
+
+var output= qpt.search(pattern);
+
+document.write("Position: " + output);
+}
+</script>
+A) Position-1
+
+53) --------------- method returns the number of milliseconds in a date string.
+A) parse()
+
+54) ------------- converts a string to floating point numbers.
+A) ParseFloat
+
+55) ---------------------- attempts to evaluate a string representing any javascript literals or variables, converting it to a number.
+A) eval
+
+56) Which is not an attribute of the cookie property?
+A) host
+
+57) How do substring() and substr() differ?
+A) Only one accepts a desired string length as an argument.
+
+58) Which is not a reserved word?
+A) program
+
+59) In Javascript, Which of the following method is used to find out the character at a position in a string?
+a) charAt()
+
+60)
+<script type="text/javascript" language="javascript">
+
+var qpt = "QualityPointTechnologies";
+var result =qpt.substring(7,8);
+document.write(result);
+
+</script>
+A) P
+
+61) How do you delete an element from an options array?
+A) Set it to null.
+
+62) Is javaScript case sensitive ?
+a) Yes
+
+
+64) What are the following looping structures are available in javascripts?
+A) for , while loop
+
+65) Which of these is not a method of the Math object?
+c) eval()
+
+66)
+<script type="text/javascript">
+var s = "9123456 or 80000?";
+var pattern = /\d{4}/;
+var output = s.match(pattern);
+document.write(output);
+</script>
+A) 9123
+
+67) In javascript, RegExp Object Method test() is used to search a string and returns _________
+A) true or false
+
+68) What property would you use to redirect a visitor to another page?
+A) window.location.href
+
+70)
+<script type="text/javascript" language="javascript">
+var qpt = "QualityPointTechnologies";
+var result =qpt.indexOf("Tech");
+document.write(result);
+</script>
+A) 12
+
+71)
+<script language="javascript">
+function x()
+{
+var s = "Eat to live, but do not live to eat";
+var pattern = new RegExp("eat$");
+document.write(pattern.exec(s));
+}
+</script>
+A) eat
+
+72)
+<script language="javascript">
+function x()
+{
+var qpt = "We are fast growing Software Company located in Chennai, India.";
+var pattern = new RegExp("in","g");
+
+document.write(pattern.exec(qpt) + " ");
+document.write(pattern.exec(qpt) + " ");
+document.write(pattern.exec(qpt) + " ");
+}
+
+</script>
+A) in in null
+
+74) parseFloat(“FF2”)=?
+A) NaN
+
+75)eval((20*4)=?
+A) 80
+
+76)
+<script language="javascript">
+function x()
+{
+var qpt = "QualityPointTechnologies";
+var pattern = new RegExp("TECHNOLOGIES","i");
+document.write(qpt.match(pattern));
+}
+</script>
+A) Technologies
+
+77)Javascript is a ________ typed language.
+A) loosely
